@@ -1,4 +1,4 @@
 .git
 .cursor
-agent-transcripts
-*.md
+public
+_next

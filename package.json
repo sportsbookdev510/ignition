@@ -1,0 +1,7 @@
+{
+  "name": "ignition",
+  "private": true,
+  "scripts": {
+    "build": "echo static"
+  }
+}

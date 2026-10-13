@@ -1,12 +1,11 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "buildCommand": null,
-  "installCommand": null,
-  "outputDirectory": "public",
+  "buildCommand": "echo static",
+  "installCommand": "echo skip",
+  "outputDirectory": "www",
   "cleanUrls": true,
   "rewrites": [
     { "source": "/create", "destination": "/create/index.html" },
-    { "source": "/launches", "destination": "/launches/index.html" }
+    { "source": "/launches", "destination": "/launches/index.html" },
+    { "source": "/_next/:path*", "destination": "/nf/:path*" }
   ]
 }
